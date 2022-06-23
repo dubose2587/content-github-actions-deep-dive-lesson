@@ -27,5 +27,5 @@ jobs:
       -  name: Archieve artifact
          uses: actions/upload-artifact@v2
          with:
-          name: zipped-buncle
+          name: zipped-bundle
           path: ${{ github.sha }}.zip
